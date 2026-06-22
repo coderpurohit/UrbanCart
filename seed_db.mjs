@@ -27,8 +27,8 @@ const products = [
     { name: 'Rolled Oats', price: 95, category: 'Breakfast', image: '/products/oats.jpg', unit: '1 kg', delivery_time: '8 MINS' }, // Local Oats
 
     // COFFEE
-    { name: 'Instant Coffee', price: 180, category: 'Coffee', image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=300&q=80', unit: '100 g', delivery_time: '8 MINS' },
-    { name: 'Roasted Coffee Beans', price: 350, category: 'Coffee', image: 'https://images.unsplash.com/photo-1596704149909-6447c2a71f76?auto=format&fit=crop&w=500&q=80', unit: '500 g', delivery_time: '8 MINS' },
+    { name: 'Instant Coffee', price: 180, category: 'Coffee', image: '/products/instant_coffee.jpg', unit: '100 g', delivery_time: '8 MINS' }, // Local Instant Coffee
+    { name: 'Roasted Coffee Beans', price: 350, category: 'Coffee', image: '/products/roasted_coffee.jpg', unit: '500 g', delivery_time: '8 MINS' }, // Local Bean Coffee
 
     // FOOD
     { name: 'Healthy Salad Bowl', price: 150, category: 'Food', image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80', unit: '1 serving', delivery_time: '30 MINS' },

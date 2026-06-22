@@ -6,9 +6,11 @@ import path from 'path';
 const downloads = [
     { name: 'oreo.jpg', url: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Oreo-Two-Cookies.jpg' },
     { name: 'cookies.jpg', url: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/2ChocolateChipCookies.jpg' },
-    { name: 'cornflakes.jpg', url: 'https://images.pexels.com/photos/135525/pexels-photo-135525.jpeg?auto=compress&cs=tinysrgb&w=800' }, // Pexels Cereal
+    { name: 'cornflakes.jpg', url: 'https://images.pexels.com/photos/135525/pexels-photo-135525.jpeg?auto=compress&cs=tinysrgb&w=800' },
     { name: 'oats.jpg', url: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Rolled_oats.jpg' },
-    { name: 'paneer.jpg', url: 'https://images.pexels.com/photos/9609848/pexels-photo-9609848.jpeg?auto=compress&cs=tinysrgb&w=800' } // Pexels Indian Food/Cheese
+    { name: 'paneer.jpg', url: 'https://images.pexels.com/photos/9609848/pexels-photo-9609848.jpeg?auto=compress&cs=tinysrgb&w=800' },
+    { name: 'instant_coffee.jpg', url: 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800' }, // Pexels Coffee
+    { name: 'roasted_coffee.jpg', url: 'https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&w=800' }  // Pexels Coffee Beans
 ];
 
 async function downloadImages() {
