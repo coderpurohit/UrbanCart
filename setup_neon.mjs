@@ -85,7 +85,7 @@ const products = [
     { name: 'Baker Croissant', price: 30, category: 'Bakery', image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80', unit: '6 pcs', delivery_time: '8 MINS' },
     { name: 'Coca Cola', price: 40, category: 'Beverages', image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80', unit: '750 ml', delivery_time: '8 MINS' },
     { name: 'Orange Juice', price: 120, category: 'Beverages', image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=500&q=80', unit: '1 L', delivery_time: '8 MINS' },
-    { name: 'Sprite Can', price: 35, category: 'Beverages', image: 'https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=500&q=80', unit: '300 ml', delivery_time: '8 MINS' },
+    { name: 'Sprite Can', price: 35, category: 'Beverages', image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=500&q=80', unit: '300 ml', delivery_time: '8 MINS' },
     { name: 'Oreo Cookies', price: 30, category: 'Biscuits', image: '/products/oreo.jpg', unit: '120 g', delivery_time: '8 MINS' },
     { name: 'Chocolate Cookies', price: 45, category: 'Biscuits', image: '/products/cookies.jpg', unit: '250 g', delivery_time: '8 MINS' },
     { name: 'Corn Flakes', price: 140, category: 'Breakfast', image: '/products/cornflakes.jpg', unit: '475 g', delivery_time: '8 MINS' },

@@ -30,14 +30,14 @@ export default function ProductCard({ product }: Props) {
 
   // ✅ SAFE image handling (FIX)
   const [imgSrc, setImgSrc] = useState(
-    product.image && product.image.startsWith("http")
+    product.image && (product.image.startsWith("http") || product.image.startsWith("/"))
       ? product.image
       : defaultImage
   );
 
   // If product changes, reset image
   if (product && product.image !== imgSrc && imgSrc !== defaultImage) {
-    if (product.image && product.image.startsWith("http")) {
+    if (product.image && (product.image.startsWith("http") || product.image.startsWith("/"))) {
       setImgSrc(product.image);
     }
   }
