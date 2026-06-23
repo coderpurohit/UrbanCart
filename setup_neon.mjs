@@ -85,7 +85,7 @@ const products = [
     { name: 'Baker Croissant', price: 30, category: 'Bakery', image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80', unit: '6 pcs', delivery_time: '8 MINS' },
     { name: 'Coca Cola', price: 40, category: 'Beverages', image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80', unit: '750 ml', delivery_time: '8 MINS' },
     { name: 'Orange Juice', price: 120, category: 'Beverages', image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=500&q=80', unit: '1 L', delivery_time: '8 MINS' },
-    { name: 'Sprite Can', price: 35, category: 'Beverages', image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=500&q=80', unit: '300 ml', delivery_time: '8 MINS' },
+    { name: 'Sprite Can', price: 35, category: 'Beverages', image: '/products/sprite.jpg', unit: '300 ml', delivery_time: '8 MINS' },
     { name: 'Oreo Cookies', price: 30, category: 'Biscuits', image: '/products/oreo.jpg', unit: '120 g', delivery_time: '8 MINS' },
     { name: 'Chocolate Cookies', price: 45, category: 'Biscuits', image: '/products/cookies.jpg', unit: '250 g', delivery_time: '8 MINS' },
     { name: 'Corn Flakes', price: 140, category: 'Breakfast', image: '/products/cornflakes.jpg', unit: '475 g', delivery_time: '8 MINS' },
@@ -102,7 +102,7 @@ const products = [
     { name: 'Fresh Mangoes', price: 120, category: 'Fruits', image: 'https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=500&q=80', unit: '1 dozen', delivery_time: '8 MINS' },
     { name: 'Robusta Banana', price: 60, category: 'Fruits', image: 'https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=500&q=80', unit: '1 dozen', delivery_time: '8 MINS' },
     { name: 'Red Apples', price: 140, category: 'Fruits', image: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format&fit=crop&w=500&q=80', unit: '1 kg', delivery_time: '8 MINS' },
-    { name: 'Green Grapes', price: 90, category: 'Fruits', image: 'https://images.unsplash.com/photo-1596363505729-41905a9a63d6?auto=format&fit=crop&w=500&q=80', unit: '500 g', delivery_time: '8 MINS' },
+    { name: 'Green Grapes', price: 90, category: 'Fruits', image: '/products/grapes.jpg', unit: '500 g', delivery_time: '8 MINS' },
     { name: 'Instant Noodles', price: 14, category: 'Instant', image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=500&q=80', unit: '70 g', delivery_time: '8 MINS' },
     { name: 'Cup Noodles', price: 50, category: 'Instant', image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=500&q=80', unit: '1 cup', delivery_time: '8 MINS' }
 ];
